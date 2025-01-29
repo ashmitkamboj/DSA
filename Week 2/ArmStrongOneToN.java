@@ -9,7 +9,7 @@ public class ArmStrongOneToN {
              while (temp > 0)
             {
                 int lastDigit = temp % 10;
-                sum = sum + lastDigit * lastDigit * lastDigit;
+                sum = sum +  lastDigit * lastDigit * lastDigit;
                 temp = temp / 10;
             }
 
