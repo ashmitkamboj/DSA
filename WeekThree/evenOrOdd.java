@@ -14,7 +14,7 @@ public class evenOrOdd {
     }    
     public static void main(String[] args) {
         
-        boolean result = EvenOrOdd(n)(5);
+        boolean result = EvenOrOdd(5);
         System.out.println(result);
     }
 }
