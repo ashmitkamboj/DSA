@@ -15,10 +15,10 @@ public class missingNumber
         return answer;
     }
         
-        public static void main(String[] args) 
-        {
-            missingNumber mn = new missingNumber();
-            int[] nums = {3, 0, 1};
-            System.out.println("Missing number is: " + mn.MissingNumber(nums));
-        }
+    public static void main(String[] args) 
+    {
+        missingNumber mn = new missingNumber();
+        int[] nums = {3, 0, 1};
+        System.out.println("Missing number is: " + mn.MissingNumber(nums));
+    }
 }
