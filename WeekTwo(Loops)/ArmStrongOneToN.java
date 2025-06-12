@@ -1,4 +1,3 @@
-
 public class ArmStrongOneToN {
     public static void main(String[] args) {
         int n = 1000;
