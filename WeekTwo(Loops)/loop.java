@@ -2,6 +2,7 @@ import java.util.Scanner;
 public class loop {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        System.out.println("Enter a number between 1 and 7 to get the corresponding day of the week:");
         int day = sc.nextInt();
 
         if (day == 1) {
